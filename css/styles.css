@@ -188,7 +188,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    top: 50px;
+    top: 800px;
     position: relative;
 }
 #page2 p {
@@ -203,26 +203,25 @@
     font-family: 'Inter', sans-serif;
     font-weight: 600;
 }
-
-#ilha {
-    margin-top: 50px;
+#cananeia {
+  margin-top: 800;
 }
-
-#IC {
-    margin-top: 80px;
-}
-
-body {
-    margin: 0;
-    padding: 12px;
-}
-
 .linha {
     border: 1px solid #e1dfdf;
-    margin-top: 550px;
+    margin-top: 600px;
+
+}
+.linha2 {
+  border: 1px solid #e1dfdf;
+  margin-top:-500px;
 
 }
 
+.linha3 {
+  border: 1px solid #e1dfdf;
+  margin-top:80px;
+
+}
 
 
 @media (min-width: 992px) {
@@ -253,4 +252,3 @@ body {
     }
     }
 
-    

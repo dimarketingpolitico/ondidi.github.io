@@ -229,6 +229,14 @@
   margin-top:80px;
 
 }
+#page1 p.abre {
+  text-align: center;
+  top: 430px;
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding-right: 20px;
+  padding-left: 20px;
+}
 
 
 @media (min-width: 992px) {

@@ -1,3 +1,4 @@
+ 
  /* Estilos para as páginas */
  .page {
     display: none;
@@ -237,6 +238,33 @@
   padding-right: 20px;
   padding-left: 20px;
 }
+
+/* hover imagens */
+
+.imagem-com-texto {
+  position: relative;
+  width: 100%; 
+}
+
+.imagem-com-texto img {
+  width: 100%;
+}
+
+.texto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(3, 124, 90, 0.7); /* Cor de fundo do texto */
+  color: #fff; /* Cor do texto */
+  padding: 10px; /* Espaçamento interno do texto */
+  opacity: 0;
+  transition: opacity 0.3s; /* Animação de fade-in */
+}
+
+.imagem-com-texto:hover .texto {
+  opacity: 1;
+}
+
 
 
 @media (min-width: 992px) {

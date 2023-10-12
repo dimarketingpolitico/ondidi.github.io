@@ -206,12 +206,17 @@
     padding-right: 20px;
     padding-left: 20px;
 }
+#page2 .sec{
+  font-size: 12px;
+  font-weight: 400;
+  top: 600px;
+} 
 #cananeia {
   margin-top: 800;
 }
 .linha {
     border: 1px solid #e1dfdf;
-    margin-top: 600px;
+    margin-top: 620px;
 
 }
 .linha2 {
@@ -241,12 +246,12 @@
 
 /* hover imagens */
 
-.imagem-com-texto {
+.texto-imagens {
   position: relative;
   width: 100%; 
 }
 
-.imagem-com-texto img {
+.texto-imagens img {
   width: 100%;
 }
 
@@ -261,7 +266,7 @@
   transition: opacity 0.3s; /* Animação de fade-in */
 }
 
-.imagem-com-texto:hover .texto {
+.texto-imagens:hover .texto {
   opacity: 1;
 }
 

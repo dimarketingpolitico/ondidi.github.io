@@ -213,6 +213,34 @@
 } 
 #cananeia {
   margin-top: 800;
+  background-color: rgba(86, 248, 202, 0.1);
+}
+#ilha {
+  background-color: rgba(247, 174, 220, 0.2);
+}
+#castt {
+  background-color: rgba(246, 210, 134, 0.1);
+}
+#Sebs {
+  background-color: rgb(255, 127, 80, 0.1);
+}
+#horto {
+  background-color: rgb(0, 255, 255, 0.1);
+}
+#pico {
+  background-color: rgb(255, 20, 147, 0.1);
+}
+#anjos {
+  background-color: rgb(127, 255, 0, 0.2);
+}
+#esk {
+  background-color: rgb(220, 20, 60, 0.1);
+}
+#usina {
+  background-color: rgb(189, 183, 107, 0.2);
+}
+#canta {
+  background-color: rgb(1, 124, 22, 0.1);
 }
 .linha {
     border: 1px solid #e1dfdf;
@@ -269,7 +297,10 @@
 .texto-imagens:hover .texto {
   opacity: 1;
 }
-
+.foto-top {
+  border: 3px solid rgb(142, 140, 140);
+  box-shadow: 5px 5px 5px #888888;
+}
 
 
 @media (min-width: 992px) {

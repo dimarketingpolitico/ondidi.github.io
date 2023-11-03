@@ -212,8 +212,12 @@
   top: 600px;
 } 
 #cananeia {
-  margin-top: 800;
-  background-color: rgba(86, 248, 202, 0.1);
+margin-top: -600px;
+ background-color: rgba(86, 248, 202, 0.1);
+}
+#ana {
+  margin-top: 550px;
+  background-color: rgba(173, 240, 221, 0.1);
 }
 #ilha {
   background-color: rgba(247, 174, 220, 0.2);

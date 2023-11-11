@@ -210,13 +210,18 @@
   font-size: 12px;
   font-weight: 400;
   top: 600px;
-} 
+}
+.clean {
+  margin-top: 650px;
+}
+#brotas-torrinha{
+  background-color: rgba(228, 114, 133, 0.2);
+}
 #cananeia {
 margin-top: -600px;
  background-color: rgba(86, 248, 202, 0.1);
 }
 #ana {
-  margin-top: 650px;
   background-color: rgba(173, 240, 221, 0.1);
 }
 #ilha {

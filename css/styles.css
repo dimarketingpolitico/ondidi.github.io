@@ -216,6 +216,7 @@
 }
 #riopardo {
   background-color: rgb(0, 255, 255, 0.1);
+  margin-top: -600px;
 }
 #brotas-torrinha{
   background-color: rgba(228, 114, 133, 0.2);
@@ -314,33 +315,42 @@ margin-top: -600px;
   border: 3px solid rgb(142, 140, 140);
   box-shadow: 5px 5px 5px #888888;
 }
+.pe {
+  text-align: center;
+  margin-top: 150px;
+}
 
 
 @media (min-width: 992px) {
-    #ilha {
-        margin-top: 100px;
-    }
-    #page2 button {
-        letter-spacing: 3px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 100px;
-        position: relative;
-    }
-    #page2 p {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        top: 580px;
-        position: relative;
-        text-align: center;
-        font-family: 'Croissant One', cursive;
-        font-family: 'Inter', sans-serif;
-        font-weight: 600;
-        font-size: 18px;
-    }
-    }
+  #ilha {
+      margin-top: 100px;
+  }
+  #page2 button {
+    letter-spacing: 3px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 100px;
+     position: relative;
+  }
+  #page2 p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 580px;
+    position: relative;
+    text-align: center;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+   }
+  .pe {
+    text-align: center;
+    margin-top: 30px;
+   }
+}
+    
 
